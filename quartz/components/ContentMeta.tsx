@@ -27,6 +27,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
+      // Hide meta on index page
+      if (fileData.slug === "index") {
+        return null
+      }
+
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
