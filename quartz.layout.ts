@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes({
-        title: "Thoughts",
+        title: "THOUGHTS",
         limit: 50,
         showTags: false,
         filter: (f) => f.slug?.startsWith("thoughts/") && f.slug !== "thoughts/index",
