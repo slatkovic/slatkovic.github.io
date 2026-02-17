@@ -265,6 +265,7 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
+            <Footer {...componentData} />
             {LeftComponent}
             <div class="center">
               <div class="page-header">
@@ -280,7 +281,6 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
-              <hr />
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
@@ -288,7 +288,6 @@ export function renderPage(
               </div>
             </div>
             {RightComponent}
-            <Footer {...componentData} />
           </Body>
         </div>
       </body>
