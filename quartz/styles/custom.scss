@@ -1,3 +1,232 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================
+// Minimal Theme — Clean, centered, monospace
+// ============================================
+
+// ============================================
+// Layout
+// ============================================
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.center {
+  width: 100%;
+  max-width: 640px;
+}
+
+// Hide sidebars — content-only layout
+.left.sidebar,
+.right.sidebar {
+  display: none !important;
+}
+
+#quartz-body {
+  display: block !important;
+}
+
+// ============================================
+// Typography
+// ============================================
+body {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+article h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+// ============================================
+// Links
+// ============================================
+a {
+  color: var(--dark);
+  text-decoration: underline;
+  text-decoration-color: var(--gray);
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: var(--dark);
+  }
+}
+
+// ============================================
+// Content
+// ============================================
+article {
+  p, ul, ol, blockquote {
+    color: var(--darkgray);
+  }
+
+  blockquote {
+    border-left: 2px solid var(--lightgray);
+    padding-left: 1rem;
+    margin-left: 0;
+    font-style: italic;
+    color: var(--gray);
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--lightgray);
+    margin: 2rem 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  // Code blocks
+  pre {
+    padding: 1rem !important;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    overflow-x: auto;
+  }
+
+  code {
+    font-size: 0.9em;
+  }
+}
+
+// ============================================
+// Breadcrumbs
+// ============================================
+.breadcrumb-container {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray);
+
+  a {
+    color: var(--gray);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ============================================
+// Folder/Tag Pages — File listing
+// ============================================
+.page-listing {
+  // Hide "N items under this folder" text
+  & > p {
+    display: none;
+  }
+
+  .section-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .section-li {
+      border-bottom: 1px solid var(--lightgray);
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .section {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        padding: 0.5rem 0;
+
+        .meta {
+          font-size: 0.8rem;
+          color: var(--gray);
+          white-space: nowrap;
+          flex-shrink: 0;
+        }
+
+        .desc,
+        .tags {
+          display: none;
+        }
+
+        a {
+          text-decoration: none;
+          color: var(--dark);
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ============================================
+// Content Meta
+// ============================================
+.content-meta {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+// ============================================
+// Page Footer
+// ============================================
+.page-footer {
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+// ============================================
+// Search
+// ============================================
+#search-container {
+  #search-space {
+    border: 1px solid var(--lightgray);
+  }
+}
+
+// ============================================
+// Popover
+// ============================================
+.popover {
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  :root[saved-theme="dark"] & {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// ============================================
+// Tag List
+// ============================================
+.tag-list {
+  a {
+    font-size: 0.85rem;
+    color: var(--gray);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--dark);
+    }
+  }
+}
+
+// ============================================
+// Mobile
+// ============================================
+@media (max-width: 800px) {
+  .page {
+    padding: 0 1rem;
+  }
+}
