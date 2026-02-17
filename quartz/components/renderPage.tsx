@@ -285,6 +285,12 @@ export function renderPage(
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
                 ))}
+                {slug !== "index" && (
+                  <div class="footer-links">
+                    <a href="/" class="back-link">← Home</a>
+                    <a href="#" class="back-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Top</a>
+                  </div>
+                )}
               </div>
             </div>
             {RightComponent}

@@ -184,6 +184,22 @@ article {
 .page-footer {
   margin-top: 2rem;
   padding-bottom: 10rem;
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .back-link {
+    font-size: 0.85rem;
+    color: var(--gray);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--dark);
+    }
+  }
 }
 
 // ============================================
