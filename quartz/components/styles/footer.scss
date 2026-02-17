@@ -11,4 +11,15 @@ nav.site-nav {
       text-decoration: underline;
     }
   }
+
+  .twitter-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--gray);
+
+    &:hover {
+      color: var(--dark);
+    }
+  }
 }
