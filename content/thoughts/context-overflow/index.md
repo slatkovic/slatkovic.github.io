@@ -1,5 +1,5 @@
 ---
-title: The Human Processor
+title: Context Overflow
 date: 2026-02-18
 ---
 
@@ -15,14 +15,14 @@ It's not anymore. With AI you can run many deep lines of thinking at once. Not t
 
 Intelligence is becoming infrastructure. Not a replacement for human thought but a multiplier, the way electricity multiplied what one person could move, build, make. The distance between "I'm curious about quantum physics" and "I can reason about it" used to be a PhD. Now it's an afternoon. The wall between curiosity and understanding has come down.
 
-We are being upgraded, not in some far-off sci-fi sense, but right now, clumsily, through chat windows and text boxes. And the human processor is maxing out.
+We are being upgraded, not in some far-off sci-fi sense, but right now, clumsily, through chat windows and text boxes. And the context is starting to overflow.
 
-You feel it if you've spent real time working this way. You branch into six lines of thinking and each one gives you something real, but when you try to collect yourself, something is scattered. You can't find where the good idea went. You go deep on a problem, surface with the answer, and realize you've lost the thread of why you were asking. You sent your mind out in six directions and not all of it came back.
+You feel it if you've spent real time working this way. You branch into six lines of thinking and each one gives you something real, but when you try to collect yourself, something is scattered. You can't find where the good idea went. You go deep on a problem, surface with the answer, and realize you've lost the context of why you were asking. You sent your mind out in six directions and not all of it came back.
 
 The answers arrive fast but making sense of them is slow, because sense-making is a body process. It takes time and sleep and stillness, the kind where you sit with something long enough for it to land. The parallel mind doesn't want stillness. It wants to branch again.
 
-This is an old pattern. Writing gave us external memory and we lost the art of remembering. The printing press spread knowledge everywhere and broke the church's hold on truth. The internet connected everything and scattered our attention. Each time, a new power and a new cost, the human processor overwhelmed by what it had just unlocked.
+This is an old pattern. Writing gave us external memory and we lost the art of remembering. The printing press spread knowledge everywhere and broke the church's hold on truth. The internet connected everything and scattered our attention. Each time, a new power and a new cost, more flowing in than could be held at once.
 
-But those leaps were about information. This one is about thinking itself. Thought went parallel, and the processor at the center of it is still one mind, one body, one pair of eyes.
+But those leaps were about information. This one is about thinking itself. Thought went parallel, and the mind at the center of it is still one person, one body, one thread of consciousness trying to hold the whole picture.
 
-Knowledge is everywhere now and thinking is cheap. What didn't get faster is us. The part that has to take what comes back and make sense of it, let it land, let it change you. That's the human processor's job, it always was, we just never noticed because it was never the bottleneck before. Now it is, and the question isn't how to think more but how to come back from thinking.
+Thinking multiplied, but we didn't. Our minds can no longer hold the context, and the human processor is left with one question: how to come back from thinking.
