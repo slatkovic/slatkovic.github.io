@@ -3,8 +3,6 @@ title: The World Has Already Changed
 date: 2026-02-17
 ---
 
-![[header.jpeg]]
-
 Someone asked me for help today. Hundreds of tasks, all done by hand. Could I help automate them?
 
 I asked if he'd tried pointing an AI at it. He paused. "Damn. Good idea." Then he said something I keep hearing everywhere: "The world is changing."
