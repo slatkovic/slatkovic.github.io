@@ -3,8 +3,6 @@ title: Software Is Collapsing Into the Interface
 date: 2026-02-10
 ---
 
-![[header.jpeg]]
-
 When anyone can generate features in seconds, features stop being the product. Code gets cheap. The hard part is no longer making the thing work. The hard part is deciding what the thing should do, for this person, in this moment. And when that happens, all of software starts collapsing into one thing: THE INTERFACE.
 
 ## The Surface
