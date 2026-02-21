@@ -1,5 +1,5 @@
 ---
-title: Context Overflow
+title: The Parallel Brain
 date: 2026-02-18
 ---
 
@@ -25,4 +25,4 @@ This is an old pattern. Writing gave us external memory and we lost the art of r
 
 But those leaps were about information. This one is about thinking itself. Thought went parallel, and the mind at the center of it is still one person, one body, one thread of consciousness trying to hold the whole picture.
 
-Thinking multiplied, but we didn't. Our minds can no longer hold the context, and the human processor is left with one question: how to come back from thinking.
+Thinking multiplied, but we didn't. Our minds can no longer hold the context, and the parallel brain is left with one question: how to come back from thinking.
