@@ -13,11 +13,11 @@ Not just facts. Patterns.
 
 The shape of a good explanation. The way a clear question leads to a clear answer. The way context changes everything — how the same words mean different things depending on what came before. The way a conversation between two people who understand each other produces something neither could alone. The way a vague question gets a vague answer, and a precise one opens a door.
 
-All of that is in there. Not because anyone labeled it or tagged it. Because that's what human language is. It's not just words — it's the structure of how we think together. Every essay that built an argument carefully. Every teacher who found the right analogy. Every conversation where someone said "wait, let me back up and give you context" and everything after that was better for it. Every time a human communicated well — and every time they didn't — the pattern is in the data.
+All of that is in there. Not because anyone labeled it or tagged it. Because that's what human language is. It's not just words — it's the structure of how we think together. Every essay that built an argument carefully. Every teacher who found the right analogy. Every time a human communicated well — and every time they didn't — the pattern is in the data.
 
 So when you prompt an LLM, you're not issuing a command. You're invoking a pattern.
 
-Give it a terse keyword and you activate the pattern of terse exchanges — which, in the data, produce shallow responses. The machine isn't the bottleneck. The thinking is.
+Give it a terse keyword and you get what terse keywords have always gotten — shallow responses. The machine isn't the bottleneck. The thinking is.
 
 Give it real context — what you're trying to do, what you've tried, why it matters, what good looks like — and you activate a different pattern entirely. The pattern of two minds working through a problem together. Which, in the data, is where the best thinking lives.
 
