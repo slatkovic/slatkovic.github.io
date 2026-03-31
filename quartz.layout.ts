@@ -11,7 +11,10 @@ export const sharedPageComponents: SharedLayout = {
         title: "THOUGHTS",
         limit: 50,
         showTags: false,
-        filter: (f) => f.slug?.startsWith("thoughts/") && f.slug !== "thoughts/index",
+        filter: (f) =>
+          f.slug?.startsWith("thoughts/") &&
+          f.slug !== "thoughts/index" &&
+          typeof f.frontmatter?.version !== "number",
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
@@ -27,6 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ContentMeta(),
+    Component.ThinkingThread(),
     Component.TagList(),
   ],
   left: [],
@@ -37,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.ThinkingThread()],
   left: [],
   right: [],
 }
